@@ -113,22 +113,6 @@ nav {
   );
 }
 
-@font-face {
-  font-family: 'source_serif';
-  src: local('Arial');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'source_serif';
-  src: local('Arial');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Typography */
 
 body {
@@ -137,7 +121,7 @@ body {
   -webkit-text-size-adjust: 100%;
   background: #f0f0f0;
   color: #222;
-  font: 400 var(--fluid-0) / 1.6 'source_serif', Georgia, serif;
+  font: 400 var(--fluid-0) / 1.6 Arial;
 }
 
 h1,
@@ -215,4 +199,16 @@ h2 {
 .additive-spacing > hr,
 .additive-spacing > hr:last-child {
   margin: var(--space-2) 0;
+}
+
+/* title section */
+.title {
+  background: navajowhite;
+  padding-top: var(--fluid-0);
+  padding-right: var(--fluid-2);
+}
+
+.title__line {
+  width: 100%;
+  border: black 2px solid;
 }
